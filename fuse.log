@@ -1,0 +1,38 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Domy/Desktop/Elaborato ASDI/Traccia 8/Es_8_IO/final_tb_isim_beh.exe" -prj "C:/Users/Domy/Desktop/Elaborato ASDI/Traccia 8/Es_8_IO/final_tb_beh.prj" "work.final_tb" 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Domy/Desktop/Elaborato ASDI/Traccia 8/Es_8_IO/common_defs.vhd" into library work
+Parsing VHDL file "C:/Users/Domy/Desktop/Elaborato ASDI/Traccia 8/Es_8_IO/control_store.vhd" into library work
+Parsing VHDL file "C:/Users/Domy/Desktop/Elaborato ASDI/Traccia 8/Es_8_IO/alu.vhd" into library work
+Parsing VHDL file "C:/Users/Domy/Desktop/Elaborato ASDI/Traccia 8/Es_8_IO/datapath.vhd" into library work
+Parsing VHDL file "C:/Users/Domy/Desktop/Elaborato ASDI/Traccia 8/Es_8_IO/control_unit.vhd" into library work
+Parsing VHDL file "C:/Users/Domy/Desktop/Elaborato ASDI/Traccia 8/Es_8_IO/pwm.vhd" into library work
+Parsing VHDL file "C:/Users/Domy/Desktop/Elaborato ASDI/Traccia 8/Es_8_IO/processor.vhd" into library work
+Parsing VHDL file "C:/Users/Domy/Desktop/Elaborato ASDI/Traccia 8/Es_8_IO/dp_ar_ram.vhd" into library work
+Parsing VHDL file "C:/Users/Domy/Desktop/Elaborato ASDI/Traccia 8/Es_8_IO/device_mux.vhd" into library work
+Parsing VHDL file "C:/Users/Domy/Desktop/Elaborato ASDI/Traccia 8/Es_8_IO/system.vhd" into library work
+Parsing VHDL file "C:/Users/Domy/Desktop/Elaborato ASDI/Traccia 8/Es_8_IO/final_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package common_defs
+Compiling package numeric_std
+Compiling architecture dataflow of entity control_store [control_store_default]
+Compiling architecture behavioral of entity control_unit [control_unit_default]
+Compiling architecture behavioral of entity alu [alu_default]
+Compiling architecture behavioral of entity datapath [datapath_default]
+Compiling architecture structural of entity processor [processor_default]
+Compiling architecture behavioral of entity dp_ar_ram [dp_ar_ram_default]
+Compiling architecture behavioral of entity pwm [pwm_default]
+Compiling architecture dataflow of entity device_mux [device_mux_default]
+Compiling architecture structural of entity system [system_default]
+Compiling architecture behavior of entity final_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 23 VHDL Units
+Built simulation executable C:/Users/Domy/Desktop/Elaborato ASDI/Traccia 8/Es_8_IO/final_tb_isim_beh.exe
+Fuse Memory Usage: 35592 KB
+Fuse CPU Usage: 483 ms

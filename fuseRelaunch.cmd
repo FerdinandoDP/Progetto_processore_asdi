@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Domy/Desktop/Elaborato ASDI/Traccia 8/Es_8_IO/final_tb_isim_beh.exe" -prj "C:/Users/Domy/Desktop/Elaborato ASDI/Traccia 8/Es_8_IO/final_tb_beh.prj" "work.final_tb" 
